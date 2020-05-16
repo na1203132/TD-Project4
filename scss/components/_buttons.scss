@@ -15,6 +15,7 @@
   .default {
     @extend %btn;
     background-color: $bluelighty;
+    transition: $bg-transition;
     &:hover{
       background-color: lighten($bluelighty,20%)
     }
@@ -24,6 +25,7 @@
   .error {
     @extend %btn;
     background-color: $darkytomato;
+    transition: $bg-transition;
     &:hover{
       background-color: lighten($bluelighty,20%)
     }
@@ -32,6 +34,7 @@
   .info {
     @extend %btn;
     background-color: $violet;
+    transition: $bg-transition;
     &:hover{
       background-color: lighten($violet,20%)
     }
@@ -40,6 +43,7 @@
   .success {
     @extend %btn;
     background-color: $greentree;
+    transition: $bg-transition;
     &:hover{
       background-color: lighten($greentree,20%)
     }
@@ -48,6 +52,7 @@
   .warning {
     @extend %btn;
     background-color: $orange;
+    transition: $bg-transition;
     &:hover{
       background-color: lighten($orange,20%)
     }
